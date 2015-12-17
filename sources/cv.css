@@ -104,6 +104,28 @@ h1,h2
 	
 }
 
+@media all and (max-width: 1023px)
+{
+	
+
+
+
+.sub li
+{
+	text-align: center;
+	list-style-type: none;
+	
+}	
+	
+#logo
+{
+	
+	margin-right: 10px;
+}	
+	
+	
+}
+
 /* ---------------- SECTION ---------------------- */
 
 section
@@ -153,17 +175,17 @@ p, li
 	
 }
 
-.sub h2
+.sub h2,p
 {
 	text-align: center;
 	
 }
 
-.sub p
-{
-	
-	text-align: justify;
-}
+
+
+
+
+
 
 
 /* --------------- FOOTER ---------------------- */ 
@@ -175,4 +197,24 @@ footer
 	text-align: center;
 	width: 100%
 	
+}
+
+@media all and (max-width: 1023px)
+{
+	
+#liseret
+{
+	
+	display: none;
+}	
+
+.sub
+{
+	
+	display: block;
+	width: 100%;
+	margin: auto;
+	
+	
+}
 }
